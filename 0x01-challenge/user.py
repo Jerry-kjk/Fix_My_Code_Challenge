@@ -18,12 +18,21 @@ class User():
 
     @email.setter
     def email(self, value):
+<<<<<<< Updated upstream
         """ Documentation """
         if type(value) is not str:
             raise TypeError("email must be a string")
         self.__email = value   
     
 
+=======
+          """ Documentation """
+          if type(value) is not str:
+              raise TypeError("email must be a string")
+          self.__email = value
+   
+    
+>>>>>>> Stashed changes
 if __name__ == "__main__":
     """ main function """
     u = User()
